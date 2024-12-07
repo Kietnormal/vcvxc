@@ -1,0 +1,24 @@
+.navbar-brand img {
+  width: 120px;
+  object-fit: cover;
+  height: 40px;
+}
+a {
+  text-decoration: none;
+}
+.subrice {
+  background-image: url(/img/subscribe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.brand-icon img {
+  width: 50px;
+  height: 50px;
+}
+.btn svg {
+  width: 20px;
+}
+.footer-sigup {
+  backdrop-filter: blur(8px);
+  background-color: #cccccc00;
+}

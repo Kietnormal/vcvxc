@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <!-- my style -->
+    <link rel="stylesheet" href="mystyle.css" />
+    <!-- nhung icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>WEB USE BOOTSTRAP-home</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-primary bg-gradient bdbt fixed-top fs-3"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            class="rounded-1"
+            src="/img/logo.jpg"
+            alt="logo"
+            width="30"
+            height="30"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">BLog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- sign-up -->
+          <div class="d-flex me-2 mb-lg-0 mb-sm-2">
+            <div>
+              <a class="btn btn-warning btn-sm" href="#">
+                <i class="fa-regular fa-user me-2"></i>Sign-up for free</a
+              >
+            </div>
+
+            <div>
+              <a class="btn btn-info btn-sm ms-2" href="#">
+                <i class="fa-solid fa-right-to-bracket me-2"></i>
+                Login
+              </a>
+            </div>
+          </div>
+          <form class="d-flex mt-md-2" role="search">
+            <input
+              class="form-control me-1 form-control-sm"
+              type="search"
+              placeholder="Search for........."
+              aria-label="Search"
+            />
+            <button class="btn btn-dark btn-sm" type="submit">
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #ced9de"
+              ></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <!-- header-start -->
+    <header class="main-header bg-primary-subtle py-5 border-bottom">
+      <div class="container mt-3">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="fw-light text-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+              hic cum nihil numquam, labore quidem suscipit reiciendis laborum
+              sequi corporis!sectetur. Lorem ipsum dolor sit amet, consectetur
+              adipisicing.
+            </p>
+            <div>
+              <a class="btn btn-secondary btn-sm" href="#">
+                <i class="fa-regular fa-user me-2"></i>Sign-up for free</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <img
+              class="w-100 rounded-1"
+              src="/img/main-header.jpg"
+              alt="main-header"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- haeder-end -->
+    <!-- site figer -->
+    <section class="py-4 border-bottom bg-info-subtle">
+      <div class="container">
+        <div class="row">
+          <!-- ITEAM -->
+          <div class="col-md-4">
+            <div
+              class="figer-iteam bg-secondary-subtle border rounded-1 p-3 d-flex align-items-center"
+            >
+              <div>
+                <img
+                  style="width: 50px; height: auto"
+                  src="/img/clock.png"
+                  alt="clock"
+                />
+              </div>
+              <div class="ms-2">
+                <h3 class="fs-5">Lorem ipsum dolor sit amet.</h3>
+                <p class="small text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Porro, accusantium?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="figer-iteam bg-secondary-subtle border rounded-1 p-3 d-flex align-items-center mt-2 mt-md-0"
+            >
+              <div>
+                <img
+                  style="width: 50px; height: auto"
+                  src="/img/responsive.png"
+                  alt="clock"
+                />
+              </div>
+              <div class="ms-2">
+                <h3 class="fs-5">Lorem ipsum dolor sit amet.</h3>
+                <p class="small text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Porro, accusantium?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="figer-itea bg-secondary-subtle border rounded-1 p-3 d-flex align-items-center mt-2 mt-md-0"
+            >
+              <div>
+                <img
+                  style="width: 50px; height: auto"
+                  src="/img/tick.png"
+                  alt="clock"
+                />
+              </div>
+              <div class="ms-2">
+                <h3 class="fs-5">Lorem ipsum dolor sit amet.</h3>
+                <p class="small text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Porro, accusantium?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-course -->
+    <section class="py-4 border-bottom bg-dark-subtle">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- row-top -->
+          <div class="col-md-5 mb-3">
+            <div class="text-md-center">
+              <h4 class="fs-5">
+                Lorem ipsum dolor sit Lorem ipsum dolor, sit amet consectetur
+                adipisicing.
+              </h4>
+              <p class="small text-secondary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Ut, molestias fuga.
+              </p>
+              <div>
+                <a class="btn btn-info btn-sm text-white" href="#">
+                  <i class="fa-solid fa-users-gear me-2"></i>View All Courses
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row-course -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="list-group">
+              <div class="list-group-item fw-bold bg-light">
+                Course Categorse
+              </div>
+
+              <a
+                class="align-items-center list-group-item d-flex justify-content-between"
+                href="#"
+                >Premium Course
+                <span class="badge rounded-pill text-bg-warning">14</span>
+              </a>
+              <a
+                class="align-items-center list-group-item d-flex justify-content-between"
+                href="#"
+                >Free Course
+                <span class="badge rounded-pill text-bg-warning">1</span>
+              </a>
+            </div>
+
+            <div class="list-group mt-3">
+              <div class="list-group-item fw-bold bg-light">
+                Course By Topics
+              </div>
+
+              <a
+                class="align-items-center list-group-item d-flex justify-content-between"
+                href="#"
+                >Coding
+                <span class="badge rounded-pill text-bg-warning">14</span>
+              </a>
+              <a
+                class="align-items-center list-group-item d-flex justify-content-between"
+                href="#"
+                >Programming
+                <span class="badge rounded-pill text-bg-warning">1</span>
+              </a>
+              <a
+                class="align-items-center list-group-item d-flex justify-content-between"
+                href="#"
+                >Design
+                <span class="badge rounded-pill text-bg-warning">1</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="list-group small fw-bold">
+              <div
+                class="align-items-center list-group-item d-flex justify-content-between"
+              >
+                List of all Course
+                <span class="badge rounded-pill text-bg-warning"
+                  >24 Course Avaliable</span
+                >
+              </div>
+              <a href="#" class="list-group-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div>
+                      <img
+                        class="rounded img-fluid"
+                        src="/img/main-header.jpg"
+                        alt="cc"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Est corr dolorum odio officiis repellendus.
+                    </h5>
+                    <p class="text-secondary small">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illum, quis illo! Earum perspiciatis incidunt voluptatum
+                      fugit inventore nemo quo velit dolorum a distinctio error
+                      obcaecati, dignissimos quod architecto fuga ipsa.
+                    </p>
+                    <div class="d-inline-flex align-items-center">
+                      <span
+                        class="py-1 px-2 rounded-pill bg-warning d-inline-flex align-items-center me-2"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          ></path>
+                        </svg>
+                        Rating:4.7</span
+                      >
+
+                      <span
+                        class="py-1 px-2 rounded-pill bg-success d-inline-flex align-items-center"
+                        >Price:RS/499$</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="list-group-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div>
+                      <img
+                        class="rounded img-fluid"
+                        src="/img/pic2.jpg"
+                        alt="cc"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Est corr dolorum odio officiis repellendus.
+                    </h5>
+                    <p class="text-secondary small">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illum, quis illo! Earum perspiciatis incidunt voluptatum
+                      fugit inventore nemo quo velit dolorum a distinctio error
+                      obcaecati, dignissimos quod architecto fuga ipsa.
+                    </p>
+                    <div class="d-inline-flex align-items-center">
+                      <span
+                        class="py-1 px-2 rounded-pill bg-warning d-inline-flex align-items-center me-2"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          ></path>
+                        </svg>
+                        Rating:4.7</span
+                      >
+
+                      <span
+                        class="py-1 px-2 rounded-pill bg-success d-inline-flex align-items-center"
+                        >Price:RS/499$</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="list-group-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div>
+                      <img
+                        class="rounded img-fluid"
+                        src="/img/pic3.jpg"
+                        alt="cc"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Est corr dolorum odio officiis repellendus.
+                    </h5>
+                    <p class="text-secondary small">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illum, quis illo! Earum perspiciatis incidunt voluptatum
+                      fugit inventore nemo quo velit dolorum a distinctio error
+                      obcaecati, dignissimos quod architecto fuga ipsa.
+                    </p>
+                    <div class="d-inline-flex align-items-center">
+                      <span
+                        class="py-1 px-2 rounded-pill bg-warning d-inline-flex align-items-center me-2"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          ></path>
+                        </svg>
+                        Rating:4.7</span
+                      >
+
+                      <span
+                        class="py-1 px-2 rounded-pill bg-success d-inline-flex align-items-center"
+                        >Price:RS/499$</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="list-group-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div>
+                      <img
+                        class="rounded img-fluid"
+                        src="/img/pic1.jpg"
+                        alt="cc"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h5 class="fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Est corr dolorum odio officiis repellendus.
+                    </h5>
+                    <p class="text-secondary small">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illum, quis illo! Earum perspiciatis incidunt voluptatum
+                      fugit inventore nemo quo velit dolorum a distinctio error
+                      obcaecati, dignissimos quod architecto fuga ipsa.
+                    </p>
+                    <div class="d-inline-flex align-items-center">
+                      <span
+                        class="py-1 px-2 rounded-pill bg-warning d-inline-flex align-items-center me-2"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill me-2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          ></path>
+                        </svg>
+                        Rating:4.7</span
+                      >
+
+                      <span
+                        class="py-1 px-2 rounded-pill bg-success d-inline-flex align-items-center"
+                        >Price:RS/499$</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-other -->
+    <section class="py-5 border-bottom bg-success-subtle">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="fw-bold fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+              aliquam et impedit iure vitae tenetur adipisci placeat a
+              laudantium fugiat
+            </h2>
+            <p class="small text-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+              atque quo enim deleniti doloribus distinctio facilis culpa non
+              inventore neque tenetur aliquam dolore, quis, ex modi repellat
+              magnam et eius!
+            </p>
+            <h2 class="fw-bold fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+            <p class="small text-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+              atque quo enim deleniti doloribus distinctio facilis culpa non
+              inventore neque tenetur aliquam dolore, quis, ex modi repellat
+              magnam et eius!
+            </p>
+            <a
+              href="#"
+              class="btn btn-sm btn-success d-inline-flex align-items-center mb-md-0 mb-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="me-2 bi bi-info-circle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+                ></path>
+              </svg>
+              Sign-up to get more info
+            </a>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <img
+                class="img-fluid rounded-3"
+                src="/img/main-header.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section subrice -->
+    <section class="subrice py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div>
+              <h5 class="fs-3 text-white text-md-end fw-light">
+                Subscribe for newsletters
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <form class="d-flex mt-md-2" role="search">
+              <input
+                class="form-control form-control-sm"
+                type="search"
+                placeholder="Your Email"
+                aria-label="Search"
+              />
+              <button class="btn btn-success btn-sm" type="submit">
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #ced9de"
+                ></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="py-5 border-bottom bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="brand-icon mb-2">
+              <img class="img-fluid" src="/img/logocuoi.png" alt="" />
+            </div>
+            <address class="small text-secondary">
+              Jayanagar, Bangalore, <br />
+              Karnataka, India. <br />27469
+            </address>
+            <p class="small text-secondary">Kietle@localhot.cc</p>
+          </div>
+          <div class="col-md-2 fs-5">
+            <h6>Main menu</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 fs-5">
+            <h6>Misc</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+              <li>
+                <a class="text-decoration text-secondary" href="">link</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <h6>Follow us</h6>
+            <a
+              class="btn btn-primary rounded-pill d-inline-flex align-content-center mb-2"
+              href=""
+            >
+              <svg
+                class="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                />
+              </svg>
+              <span>Facebook</span>
+            </a>
+            <a
+              class="btn btn-danger rounded-pill d-inline-flex align-items-center mb-2"
+              href="#"
+            >
+              <svg
+                class="me-2"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-twitter me-md-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                ></path>
+              </svg>
+              <span>Twitter</span></a
+            >
+            <a
+              class="btn btn-info rounded-pill d-inline-flex align-items-center mb-2"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-youtube me-md-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                ></path>
+              </svg>
+              <span>Youtobe</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      style="height: 100px"
+      class="py-5 border-bottom bg-dark bg-gradient d-flex justify-content-center align-items-center"
+    >
+      <div class="container">
+        <div class="row text-center text-white">
+          <p class="fs-5 small">Copyright © 2030. KOi957</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-sigup d-block d-md-none d-flex justify-content-center py-2 fixed-bottom"
+    >
+      <a href="#" class="btn btn-warning rounded-pill fw-bold"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-person-check-fill me-2"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+          ></path>
+          <path
+            d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+          ></path>
+        </svg>
+        Sign Up For Free
+      </a>
+    </div>
+    <script src="/javascript/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
